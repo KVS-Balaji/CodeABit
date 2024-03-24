@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    color: white;
+    background-color: rgb(25, 26, 27);
+    font-family: "Montserrat", sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px 0 50px;
+}
+
+#pfp {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #792EE7;
+}
+
+#navbarbtns {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#btns3 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+.btn3 {
+    background: transparent;
+    outline: none;
+    border: none;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+
+}
+
+#btn1 {
+    width: 20%;   
+    display: flex; 
+    align-items: center;
+}
+
+#btn1 button {
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+}
+
+#bodydiv {
+    height: 100vh;
+}
+
+#card1 {
+    height: 75vh;
+    border-radius: 20px;
+    background-color: rgb(39, 41, 42);
+    margin: 50px 100px;
+    padding: 25px 100px 0px 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#card1 p {
+    font-size: 75px;
+}
+
+#card1 button {
+    height: 60px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #792EE7;
+}
+
+#card2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 100px;
+}
+
+.card {
+    height: 30vh;
+    width: 32%;
+    margin-right: 30px;
+    background-color: rgb(39, 41, 42);
+    border-radius: 20px;
+    padding: 30px 0 0 20px;
+}
+
+#c1 {
+    padding: 30px 0 0 20px;
+}
+
+#c1 a{
+    color: white;
+}
+
+#c2 {
+    background-color: #792EE7;
+}
+
+#c3 {
+    background-color: #0AB7CE;
+    margin-right: 0;
+}

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+*:hover {
+  outline: 1px solid red;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+#appcontainer {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: black;
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+}
+
+#leftcontainer, #rightcontainer {
+  height: 100vh;
+  width: 50%;
+}
+
+#leftcontainer {
+  color: white;
+}
+
+#rightcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#rightheader {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+}
+
+.loremtext {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.loremtext p {
+  font-weight: 600;
+}
+
+#landtext {
+  font-size: 100px;
+  align-self: flex-start;
+  position: absolute;
+  top: 50%;
+}
+
+#landtext p {
+  color: white;
+  font-weight:600;
+}
+
+#adventuretext {
+  position: absolute;
+  right: -10%;
+  top: 50%;
+  transform: rotate(270deg);
+}
+
+#adventuretext p{
+  color: white;
+  font-size: 70px;
+  font-weight: 500;
+  opacity: 50%;;
+}
+
+#blurredbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 50%;
+  background-color: white;
+  filter: blur(10px);
+  opacity: 35%;
+}
+
+#woodtext p{
+  font-size: 100px;
+  font-weight: 700;
+  color: black;
+}
+
+#woodtext {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+}
+
+.circles {
+  height: 20px;
+  width: 20px;
+  background-color: #ECE4D9;
+  border-radius: 50%;
+}
+
+.circles:first-of-type {
+  background: none;
+  border: 1px solid white;
+}
+
+#randomtext {
+  display: flex;
+  width: 50%;
+  position: absolute;
+  top: 75%;
+  left: 2%;
+}
+
+#circlediv {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  justify-content: space-between;
+}
+
+#randomtext p {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+span{
+  position: absolute;
+  top: 90%;
+  left: 12%;
+  font-size: 25px;
+}
+
+#seeall {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+}
+
+#seeall p {
+  font-size: 27px;
+}
+
+#iconsheader {
+  font-size: 50px;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}

@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #222;
+  outline: hidden;
+}
+
+#appcontainer {
+  height: 100vh;
+  margin: 20px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#buttondiv {
+  display: flex;
+  width: 75%;
+}
+
+.headerbtns {
+  width: 40%;
+  height: 4vh;
+  border: 2px solid white;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-right: 20px;
+}
+
+.headerbtns:first-of-type {
+  background-color: white;
+  color: black;
+  outline: 2px solid white;
+  border: 0.5px solid black;
+}
+
+#icondiv {
+  display: flex;
+}
+
+#icondiv img {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+#graybox {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  border-radius: 20px;
+  height: 35vh;
+  background-color: rgb(114, 114, 114);
+}
+
+#leftcontent, #rightcontent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#boxheader {
+  font-size: 50px;
+  display: flex;
+  align-items: start;
+  margin-left: 20px;
+  margin-top: 10vh;
+}
+
+p {
+  margin: 0;
+}
+
+#span1 {
+  font-weight: 700;
+}
+
+#dash {
+  background-color: white;
+  height: 1vh;
+  width: 17vw;
+  margin-top: 3vh;
+}
+
+#lorembutton.headerbtns {
+  color: white;
+  outline: 2px solid white;
+  border: 0.5px solid white;
+  margin-top: 10vh;
+  margin-left: 20px;
+}
+
+#rightcontent {
+  display: flex;
+  align-items: flex-end;
+}
+
+#circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  margin-top: -50px;
+  margin-right: 100px;
+}
+
+#loremtextbox {
+  margin-top: 1vh;
+  margin-right: 80px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  height: 3vh;
+  padding: 0 10px;
+}
+
+#belowgraybtn {
+  background: none;
+  color: white;
+}
+
+#belowgray {
+  display: flex;
+}
+
+.btn1 {
+  width: 20%;
+}
+
+#btn2 {
+  width: 15%;
+}
+
+#btn3 {
+  width: 22%;
+}
+#lorembuttons {
+  width: 75%;
+  display: flex;
+}
+
+#belowgray {
+  margin-bottom: 30px;
+}
+
+#belowgray p {
+  color: white;
+  text-align: left;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  margin-right: 3vw;
+  padding: 10px;
+  height: 35vh;
+}
+
+#heading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15vh;
+}
+
+#heading p {
+  font-size: 20px;
+}
+
+#card1 {
+  background-color: #222;
+  border: 2px solid white;
+  color: white;
+  font-size: 30px;
+}
+
+#whitebox {
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+#textrandom {
+  width: 100%;
+  border-top: 1px solid white;
+}
+
+#card2 {
+  background-color: #F9D247;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#headingcard1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#headingcard1 p {
+  font-size: 20px;
+}
+#headingcard2 p {
+  font-size: 20px;
+}
+
+#card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#bottomtextcard2 {
+  display: flex; 
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+#card3 {
+  background-color: #38A1C2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#bottomtextcard3 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cards {
+  margin-bottom: 30px;
+}
+
+#footer {
+  border-top: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+#middle {
+  display: flex;
+  align-items: center;
+}
+
+#middle p {
+  margin-left: 10px;
+
+}
